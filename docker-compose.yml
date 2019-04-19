@@ -8,5 +8,5 @@ services:
       - 1521:1521
     volumes:
       - type: bind
-        source: /srv/oracle
+        source: /my-dir
         target: /ORCL
