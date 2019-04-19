@@ -1,6 +1,6 @@
 # Como usar
 
-Para ejecutar esta instacia de la base de datos Oracle EE se necesita tener instalado tanto docker como docker-compose en nuestra máquina y tener acceso a la [imagen](https://hub.docker.com/_/oracle-database-enterprise-edition) de ORACLE EE
+Para ejecutar esta instacia de Oracle EE se necesita tener instalado tanto docker como docker-compose en nuestra máquina y tener acceso a la [imagen](https://hub.docker.com/_/oracle-database-enterprise-edition) de ORACLE EE
 
 ### Ingresar en Docker Store con nuestras credenciales
 
