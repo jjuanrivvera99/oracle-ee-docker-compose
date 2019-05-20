@@ -35,3 +35,20 @@ Usando SQL*Plus desde el contenedor:
 - alter session set "_ORACLE_SCRIPT"=true;
 - CREATE USER username IDENTIFIED BY password;
 - GRANT ALL PRIVILEGES TO username;
+
+## Persistencia de datos
+- Cambiar /my-dir por el directorio de preferencia (Este directoria endrá que tener permisos de lectura y escritura)
+  
+##### Ejemplo
+    version: '3.7'
+
+    services:
+      oracle:
+        container_name: oracle
+        image: store/oracle/database-enterprise:12.2.0.1
+        ports:
+          - 1521:1521
+        volumes:
+          - type: bind
+            source: /var/oracle-data #<<-----------
+            target: /ORCL
