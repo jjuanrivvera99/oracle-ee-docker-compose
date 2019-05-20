@@ -37,7 +37,7 @@ Usando SQL*Plus desde el contenedor:
 - GRANT ALL PRIVILEGES TO username;
 
 ## Persistencia de datos
-- Cambiar /my-dir por el directorio de preferencia (Este directorio endrá que tener permisos de lectura y escritura)
+- Cambiar /my-dir por el directorio de preferencia (Este directorio tendrá que tener permisos de lectura y escritura)
   
 ##### Ejemplo
     version: '3.7'
